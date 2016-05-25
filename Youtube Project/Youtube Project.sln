@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{254F41DD-2FC3-B966-91F6-EE60DA1D984F}") = "Youtube Project", "Assembly-CSharp-firstpass.csproj", "{C75F9928-EEBE-7F8C-A04E-72D417DEE162}"
+EndProject
+Project("{254F41DD-2FC3-B966-91F6-EE60DA1D984F}") = "Youtube Project", "Assembly-CSharp.csproj", "{4C480BAC-B4BC-C62A-3104-655DB4CB5F6F}"
+EndProject
+Project("{254F41DD-2FC3-B966-91F6-EE60DA1D984F}") = "Youtube Project", "Assembly-CSharp-Editor.csproj", "{3C0EFEBA-9B9E-3708-5718-1ACCEED70966}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C75F9928-EEBE-7F8C-A04E-72D417DEE162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C75F9928-EEBE-7F8C-A04E-72D417DEE162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C75F9928-EEBE-7F8C-A04E-72D417DEE162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C75F9928-EEBE-7F8C-A04E-72D417DEE162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C480BAC-B4BC-C62A-3104-655DB4CB5F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C480BAC-B4BC-C62A-3104-655DB4CB5F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C480BAC-B4BC-C62A-3104-655DB4CB5F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C480BAC-B4BC-C62A-3104-655DB4CB5F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C0EFEBA-9B9E-3708-5718-1ACCEED70966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C0EFEBA-9B9E-3708-5718-1ACCEED70966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C0EFEBA-9B9E-3708-5718-1ACCEED70966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C0EFEBA-9B9E-3708-5718-1ACCEED70966}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
