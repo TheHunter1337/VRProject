@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+// testing commit
 public class WandController : MonoBehaviour {
 
     private Valve.VR.EVRButtonId gripButton = Valve.VR.EVRButtonId.k_EButton_Grip;
