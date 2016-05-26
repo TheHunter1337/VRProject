@@ -28,6 +28,9 @@ public class WandController : MonoBehaviour {
             Debug.Log("Controller not initialized");
         }
 
+        if (Input.GetKeyDown("space"))
+            Debug.Log("space key was pressed");
+
         gripButtonDown = controller.GetPressDown(gripButton);
         gripButtonUp = controller.GetPressUp(gripButton);
         gripButtonPressed = controller.GetPress(gripButton);
