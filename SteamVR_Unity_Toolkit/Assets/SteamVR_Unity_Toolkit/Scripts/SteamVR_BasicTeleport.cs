@@ -60,7 +60,8 @@ public class SteamVR_BasicTeleport : MonoBehaviour {
     protected virtual Vector3 GetNewPosition(Vector3 tipPosition, Transform target)
     {
         float newX = (headsetPositionCompensation ? (tipPosition.x - (eyeCamera.position.x - this.transform.position.x)) : tipPosition.x);
-        float newY = this.transform.position.y;
+        //float newY = (this.transform.position.y == tipPosition.y ? this.transform.position.y : this.transform.position.y + tipPosition.y);
+        float newY = eyeCamera.position.y + tipPosition.y;
         float newZ = (headsetPositionCompensation ? (tipPosition.z - (eyeCamera.position.z - this.transform.position.z)) : tipPosition.z);
 
         return new Vector3(newX, newY, newZ);
